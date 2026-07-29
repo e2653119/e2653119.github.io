@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intital-scale=1.0">
+    <meta name="author" content="keita HAYASHI">
+    <meta name="keywords" content="html.css.javascript">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>地球温暖化と外来生物について</title>
+</head>
+<button id="backToTop" style="display: none; position: fixed; bottom: 20px; right: 20px; padding: 10px 15px;">↑ TOP</button>
+
+<script src="./js/main.js"></script>
+<body>
+    <header id="top">
+        <h1>地球温暖化と外来生物について</h1>
+        <nav>
+            <ul>
+                <li><a href="../kadai1/index.html">ホーム</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>外来生物の駆除</h2>
+        <section class="accordion-item">
+            <h3 class="accrodion-header">駆除方法<span>[開く]</span></h3>
+                <ol>
+                    <li>
+                        カニ籠に餌を入れ、組み立てる
+                    </li>
+                    <li>
+                        池のザリガニが居そうな場所にカニ籠を設置
+                    </li>
+                    <li>
+                        翌日カニ籠を引き上げる
+                    </li>
+                </ol>
+                <img src="../kadai1/img/Crabbasket.jpeg" alt="Crab basket" height="400" width="300">
+        </section>
+
+        <section class="accordion-item">
+            <h3 class="accrodion-header">駆除結果<span>[開く]</span></h3>
+                <ul>
+                    <li>アメリカザリガニ21匹</li>
+                    <li>ウシガエル80匹</li>
+                    <li>ブルーギル12匹</li>
+                </ul>
+            <p>
+                アメリカザリガニの活用→
+                <a href="../kadai1/amezari.html" target="_blank">アメリカザリガニ21匹の行方</a>
+            </p>
+            <p>
+                ウシガエルの活用→
+                <a href="../kadai1/ushimen.html" target="_blank">ウシガエル80匹の行方</a>
+            </p>
+            <p>
+                ブルーギルの活用→
+                <a href="../kadai1/img/bluegill.jpeg">ブルーギル 末路</a>
+            </p>
+        </section>
+
+        <section class="quiz-section">
+            <h2>外来生物ミニクイズ！</h2>
+            <div class="quiz-card">
+                <p class="quiz-question">Q. 今回捕獲された「ウシガエル」や「アメリカザリガニ」の本来の原産地はどこでしょう？</p>
+                <div class="quiz-options">
+                    <button class="quiz-btn" data-correct="false">A. 南アメリカ</button>
+                    <button class="quiz-btn" data-correct="true">B. 北アメリカ</button>
+                    <button class="quiz-btn" data-correct="false">C. ヨーロッパ</button>
+                </div>
+                <p id="quiz-result" class="quiz-result"></p>
+            </div>
+        </section>
+
+        <a href="#top">トップに戻る</a>
+    </main>
+
+    <footer>
+        Copyright &copy; Keita HAYASHI, All Rights Reserved.
+    </footer>
+</body>
+</html>

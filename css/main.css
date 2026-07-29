@@ -1,0 +1,117 @@
+@charset "utl-8";
+
+nav>ul {
+    list-style: none;
+}
+
+nav>ul>li{
+    display: inline;
+    padding: 10px;
+}
+
+h1{
+    background-color: rgb(100, 105, 202);
+    font-size: 4em;
+}
+
+footer{
+    background-color: darkgray;
+}
+
+a:hover{
+    font-size: 1.2em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+body{
+    background-color: rgba(99, 167, 180, 0.39);
+}
+
+li{
+    font-size: 1.2em;
+}
+
+h3{
+    font-size: 1.4em;
+}
+
+.ameinform{
+    background-color: lightgreen;
+}
+
+table{
+    background-color: white;
+}
+
+.amekousatu{
+    font-size: 1.2em;
+}
+
+.ushiinform{
+    background-color: lightgreen;
+}
+
+.ushikousatu{
+    font-size: 1.2em;
+}
+
+.accordion-header {
+    background-color: #f0f4f8;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+
+.accordion-header:hover {
+    background-color: #e0e8f0;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    border: 1px solid #f0f4f8;
+    border-radius: 0 0 5px 5px;
+}
+
+.accordion-content.is-open {
+    display: block; 
+}
+
+.quiz-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 2px solid #2a7b4c;
+    border-radius: 8px;
+}
+
+.quiz-btn {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+.quiz-btn:hover {
+    background-color: #eef9f2;
+}
+
+.quiz-result {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
